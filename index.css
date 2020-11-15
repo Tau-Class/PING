@@ -14,12 +14,16 @@ h1, h2, h3{
     font-family: 'Barlow Semi Condensed', sans-serif !important;
 }
 
-h5 {
+h4, h5 {
     font-family: 'Montserrat', sans-serif !important;
 }
 
 p{
     font-family: 'Montserrat', sans-serif !important;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .navbar .navbar-brand {
@@ -31,7 +35,6 @@ p{
 
 .navbar .navbar-nav .nav-item > a{
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     color: #4C2A94;
     padding-right: 50px;
     transition: 0.5s;
@@ -48,7 +51,7 @@ p{
     position: relative;
     background: url("./heroimage.jpg") no-repeat center fixed;
     background-size: cover;
-    opacity: 0.70;
+    opacity: 0.8;
 }
 
 .hero-text {
@@ -61,7 +64,13 @@ p{
 }
 
 .hero-text h1{
-    font-weight: bold;
+    font-weight: 400;
+}
+
+.hero-text h1 span{
+    font-size: 60px;
+    font-weight: 700;
+    background-color: blac
 }
 
 .hero-text h5{
@@ -121,15 +130,20 @@ p{
     padding-top: 30px;
 }
 
+
 footer {
     background-color: #483670;
     color: white;
-    padding: 20px;
+    padding: 30px 0px;;
 }
 
+.brand{
+    padding-top: 10px;
+}
 
 .copyright{
     float: right;
+    padding-top: 20px;
 }
 
 .icon-bar{
@@ -138,34 +152,26 @@ footer {
 
 .icon-bar a{
     margin: 20px;
+    top: 50%;
 }
 
-.fa {
-    padding: 15px;
-    font-size: 40px;
+footer .fa {
+    background: rgba(255, 255, 255, 0.5);
+    padding-top: 12px;
+    width: 50px;
+    height: 50px;
+    font-size: 23px;
     text-align: center;
-    text-decoration: none;
     border-radius: 50%;
     transition: 0.5s;
     border: 2px solid white;
+    color: white;
 }
+
 
 .fa:hover {
-    opacity: 0.5;
-}
-
-.fa-instagram {
+    text-decoration: none;
     background: rgba(185, 153, 253, 0.6);
     color: white;
-    /* margin-left: 560px; */
-}
-
-.fa-facebook {
-    background: rgba(185, 153, 253, 0.6);
-    color: white;
-}
-
-.fa-linkedin {
-    background:rgba(185, 153, 253, 0.6);
-    color: white;
+    transform: scale(1.1);
 }
