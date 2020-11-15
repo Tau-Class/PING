@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -9,79 +9,7 @@ html, body {
     height: 100%;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-    font-family: "Monsterrat", sans-serif;
-    font-size: 16px;
-}
-
-.main {
-    width: 80%;
-    margin: auto;
-}
-
-.top-nav {
-    padding: 16px;
-    margin: auto;
-    background-color: black;
-    position: fixed;
-    width: 80%;
-    text-align: center;
-    line-height: 35px;
-}
-
-.top-nav a:link, a:visited {
-    color: #4C2A94;
-    text-decoration: none;
-}
-
-.top-nav a:hover, a:active {
-    color: lightgray;
-}
-
-.btn {
-    padding: 8px;
-    border-radius: 3px;
-    border: none;
-    font-family: inherit;
-    font-size: inherit;
-    cursor: pointer;
-}
-
-.btn-section {
-    color: black;
-    background-color: transparent;
-    font-family: 'Barlow Semi Condensed';
-}
-
-.btn-user {
-    background-color: transparent;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
-.scrolling {
-    position: fixed;
-    padding-left: 10% !important;
-    padding-right: 10% !important;
-    top: 0;
-    z-index: 2;
-    border-bottom: 1px solid #bbb;
-    box-shadow: 2px 0px 2px rgba(0,0,0,0.5);
-}
-
-h1{
-    font-family: 'Barlow Semi Condensed', sans-serif !important;
-}
-
-h2{
+h1, h2, h3{
     font-family: 'Barlow Semi Condensed', sans-serif !important;
 }
 
@@ -93,34 +21,100 @@ p{
     font-family: 'Montserrat', sans-serif !important;
 }
 
+.navbar .navbar-brand {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar .navbar-nav .nav-item{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #4C2A94 !important;
+}
+
 .hero-container{
     overflow: hidden;
     width: 100%;
     height: 100vh;
     position: relative;
-    background-color: royalblue;
+    background: url("./heroimage.jpg") no-repeat center fixed;
+    background-size: cover;
+    opacity: 0.70;
 }
 
 .hero-text {
     color:white;
     text-align: center;
     position: absolute;
-    top:  50%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
-.mission{
-    text-align: center;
-
+.hero-text h1{
+    font-weight: bold;
 }
 
+.hero-text h5{
+    margin: 50px 0px;
+}
+
+.mission{
+    display: inline-block;
+    text-align: center;
+    padding: 70px;
+}
+
+.mission-text{
+    text-align: left;
+    padding: 30px 120px 0px 120px;
+}
 
 .facts{
-    
+
 }
 
 .fact-container{
-    height: 40vh;
-    background-color: salmon;
+    padding: 40px;
+    height: 50vh;
+    color: white;
 }
+
+.fact-container h3{
+    letter-spacing: 4px;
+}
+
+.fact-container p{
+    margin-top: 25px;
+}
+
+.fact-container-one{
+    background-color: rgba(72, 54, 112, 0.4);
+}
+
+.fact-container-two{
+    background-color: rgba(72, 54, 112, 0.6);
+}
+
+.fact-container-three{
+    background-color: rgba(72, 54, 112, 0.9);
+}
+
+footer {
+    background-color: #483670;
+    color: white;
+    padding: 20px;
+}
+
+footer p .brand {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+footer p .copyright {
+    float: right;
+    font-size: 14;
+}
+
