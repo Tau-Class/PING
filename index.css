@@ -7,6 +7,7 @@
 
 html, body {
     height: 100%;
+    overflow-x: hidden;
 }
 
 h1, h2, h3{
@@ -23,14 +24,21 @@ p{
 
 .navbar .navbar-brand {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 50px;
 }
 
-.navbar .navbar-nav .nav-item{
-    font-family: 'Raleway', sans-serif;
+.navbar .navbar-nav .nav-item > a{
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    color: #4C2A94 !important;
+    color: #4C2A94;
+    padding-right: 50px;
+    transition: 0.5s;
+}
+
+.navbar .navbar-nav .nav-item > a:hover{
+    transform: scale(1.1);
 }
 
 .hero-container{
@@ -66,13 +74,13 @@ p{
     padding: 70px;
 }
 
+.mission h2{
+    letter-spacing: 1px;
+}
+
 .mission-text{
     text-align: left;
     padding: 30px 120px 0px 120px;
-}
-
-.facts{
-
 }
 
 .fact-container{
@@ -101,20 +109,63 @@ p{
     background-color: rgba(72, 54, 112, 0.9);
 }
 
+.solution-text{
+    padding: 70px;
+}
+
+.solution-text h2{
+    letter-spacing: 1px;
+}
+
+.solution-text p{
+    padding-top: 30px;
+}
+
 footer {
     background-color: #483670;
     color: white;
     padding: 20px;
 }
 
-footer p .brand {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 18px;
-    text-align: left;
-}
 
-footer p .copyright {
+.copyright{
     float: right;
-    font-size: 14;
 }
 
+.icon-bar{
+    text-align: center;
+}
+
+.icon-bar a{
+    margin: 20px;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 2px solid white;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-instagram {
+    background: rgba(185, 153, 253, 0.6);
+    color: white;
+    /* margin-left: 560px; */
+}
+
+.fa-facebook {
+    background: rgba(185, 153, 253, 0.6);
+    color: white;
+}
+
+.fa-linkedin {
+    background:rgba(185, 153, 253, 0.6);
+    color: white;
+}
