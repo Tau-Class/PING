@@ -8,6 +8,7 @@
 
     <!-- Styles/Fonts -->
     <link href="index.css" type="text/css" rel="stylesheet">
+    <link href="about.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
@@ -16,6 +17,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <!--Icon Library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 
@@ -28,9 +31,9 @@
             <a class="navbar-brand d-none d-lg-inline-block" href="#">
                 PING
             </a>
-            <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+            <!-- <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
                 <img src="//placehold.it/40?text=LOGO" alt="logo">
-            </a>
+            </a> -->
             <div class="w-100 text-right">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -40,7 +43,7 @@
         <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
             <ul class="navbar-nav ml-auto flex-nowrap">
                 <li class="nav-item">
-                    <a href="#" class="nav-link m-2 menu-item nav-active">Home</a>
+                    <a href="/index.html" class="nav-link m-2 menu-item nav-active">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="/features.html" class="nav-link m-2 menu-item">Features</a>
@@ -58,7 +61,7 @@
 
     <div class="hero-container container-fluid">
         <div class="hero-text">
-            <h1>AN ACCESSORY TO KEEP YOU SAFE</h1>
+            <h1>AN ACCESSORY TO KEEP YOU SAFE.</h1>
             <h5>Sexual assault affects up to one out of six women in their lifetime. According RAINN, the Rape, Abuse and Incest National Network, there are about just under half of a million victims of rape or sexual assault in the United States each year (link). Cases of sexual assault are underreported as 63% of sexual assault cases do not get reported to police or the authorities. Consequently, women feel unsafe when attending public events or large social gatherings.</h5>
         </div>
     </div>
@@ -94,18 +97,41 @@
         </div>
     </div>
     
-    <div class="solution container-fluid">
+    <div class="solution">
         <div class="row">
-            <div class="col"><h3>Our Solution</h3></div>
-            <div class="col">Picture</div>
+            <div class="col-lg-7">
+                <div class="solution-text">
+                    <h2>Our Solution</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet purus dui. Nam aliquet, nulla a convallis imperdiet, augue ipsum euismod ligula, et ultricies neque justo vel risus. Ut ut velit vitae arcu faucibus pellentesque eu sed massa. Mauris et nibh lacinia, viverra lorem suscipit, ornare nisi. Suspendisse in placerat libero. Nulla neque nulla, euismod a lorem quis, pretium rhoncus lectus. Sed porttitor scelerisque mi, vitae viverra eros vulputate eget. Nunc vestibulum vulputate elementum. Quisque eu auctor massa, et gravida leo.</p>
+                </div>
+                
+            </div>
+            <div class="col-lg-5">Picture</div>
         </div>
     </div>
-    
-    <footer class="container-fluid">
-        <p>
-            <span class="brand">PING</span>
-            <span class="copyright"> ©Tau Class 2020</span>
-        </p>
+
+    <footer>
+        <div class="row no-gutters justify-content-center align-items-center">
+            <div class="col-lg-3">
+                <div class="brand">
+                    <h3>PING</h3>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="icon-bar">
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="copyright">
+                    <p>©Tau Class 2020</p>
+                </div>
+                
+            </div>
+        </div>
+            
     </footer>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
