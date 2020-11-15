@@ -27,7 +27,7 @@ p{
     font-size: 24px;
 }
 
-.navbar .navbar-nav .nav-item{
+.navbar .navbar-nav{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     color: #4C2A94 !important;
@@ -41,7 +41,7 @@ p{
     /* Image Source: https://unsplash.com/photos/hTv8aaPziOQ */
     background: url("./heroimage.jpg") no-repeat center fixed;
     background-size: cover;
-    opacity: 0.70;
+    opacity: 0.75;
 }
 
 .hero-text {
@@ -105,12 +105,12 @@ p{
 footer {
     background-color: #483670;
     color: white;
-    padding: 20px;
+    padding: 25px;
 }
 
 footer p .brand {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
 }
 
