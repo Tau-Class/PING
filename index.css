@@ -80,4 +80,16 @@ footer {
     background-color: #483670;
     color: white;
     padding: 20px;
-  }
+}
+
+footer p .brand {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+footer p .copyright {
+    font-family: "Monsterrat", sans-serif;
+    float: right;
+    font-size: 14;
+}
