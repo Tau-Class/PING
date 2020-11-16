@@ -12,7 +12,6 @@ html, body {
 
 h1, h2, h3{
     font-family: 'Barlow Semi Condensed', sans-serif !important;
-    font-size: 48px !important;
 }
 
 h4, h5 {
@@ -122,6 +121,7 @@ p{
 
 .solution-text{
     padding: 70px;
+    margin-left: 50px;
 }
 
 .solution-text h2{
@@ -132,6 +132,16 @@ p{
     padding-top: 30px;
 }
 
+.solution-image{
+    margin: 70px;
+    padding-top: 40px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.solution-image img{
+    width: 250px;
+}
 
 footer {
     background-color: #483670;
