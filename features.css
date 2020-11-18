@@ -17,7 +17,6 @@
 
 .what-is-section{
     padding: 70px;
-    
 }
 
 .background-info-container p, .what-is-section p{
@@ -35,6 +34,52 @@
     padding: 70px;
 }
 
+.project-overview-container h2{
+    margin-bottom: 50px;
+}
+
 .faq-container{
     text-align: center;
+}
+
+.question-container{
+    text-align: left;
+}
+
+.accordion{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.card{
+    margin: 40px 130px;
+}
+
+.card-header p, .card-body p{
+    margin: 0;
+    padding: 0;
+}
+
+.accordion .btn {
+    width: 100%;
+    text-align: left;
+    color: black;
+}
+
+.accordion .card-header {
+    background: rgba(72, 54, 112, 0.3);
+}
+
+.accordion .btn-link{
+    transition: 0.3s;
+}
+
+.accordion .btn-link:hover{
+    color:white;
+}
+  
+
+.accordion .btn-link:hover,
+.accordion .btn-link:focus {
+  text-decoration: none;
 }
