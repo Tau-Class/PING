@@ -4,14 +4,13 @@
     height: 80vh;
     position: relative;
     /* Image Source: https://unsplash.com/photos/hTv8aaPziOQ */
-    background: url("overview4.jpg");
+    background: url("overview4.jpg") no-repeat center fixed;
     background-size: cover;
-    opacity: 0.8;
 }
 
 .mini-hero-text{
     text-align: center;
-    color: black;
+    color: white;
     position: relative;
     top: 50%;
 }
@@ -40,17 +39,14 @@
 }
 
 .project-overview-cell {
-
     text-align: center;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .overview1 img{
     width: 300px;
     height: 400px;
-
-
 }
 
 .overview2 img{
