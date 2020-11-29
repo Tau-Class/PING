@@ -28,7 +28,7 @@ const Home = () => (
                     <Link to="/about"> <a className="nav-link m-2 menu-item">About</a></Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/contactus"> <a className="nav-link m-2 menu-item">Contact Us</a></Link>
+                    <Link to="/about#contactus"> <a className="nav-link m-2 menu-item">Contact Us</a></Link>
                 </li>
             </ul>
         </div>

@@ -4,7 +4,6 @@ import { NavLink, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Features from './components/Features';
 import About from './components/About';
-import ContactUs from './components/ContactUs';
 
 /*const App = () => (
   <div className='App'>
@@ -51,7 +50,7 @@ const Navigation = () => (
                     <NavLink to="/about"> <a className="nav-link m-2 menu-item">About</a></NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/contactus"> <a className="nav-link m-2 menu-item">Contact Us</a></NavLink>
+                    <NavLink to="/about#contactus"> <a className="nav-link m-2 menu-item">Contact Us</a></NavLink>
                 </li>
             </ul>
         </div>
@@ -63,6 +62,6 @@ const Main = () => (
     <Route exact path="/" component={Home} />
     <Route exact path="/features" component={Features} />
     <Route exact path="/about" component={About} />
-    <Route exact path="/contactus" component={ContactUs} />
+    <Route exact path="/about#contactus" component={About} />
   </Switch>
 );
