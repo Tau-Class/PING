@@ -28,10 +28,9 @@ export default App;
 const Navigation = () => (
   <nav className="navbar fixed-top navbar-expand-lg navbar-light">
         <div className="d-flex flex-grow-1">
-            <span className="w-100 d-lg-none d-block"> </span>
-            <a className="navbar-brand d-none d-lg-inline-block" href="#">
-                PING
-            </a>
+            <span className="w-100 d-lg-none d-block"></span>
+            <NavLink to="/"><a className="navbar-brand d-none d-lg-inline-block">PING</a></NavLink>
+  
             <div className="w-100 text-right">
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
                     <span className="navbar-toggler-icon"></span>

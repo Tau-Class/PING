@@ -5,10 +5,9 @@ const Home = () => (
     <div>
     <nav className="navbar fixed-top navbar-expand-lg navbar-light">
         <div className="d-flex flex-grow-1">
-            <span className="w-100 d-lg-none d-block"> 
-            </span>
+            <span className="w-100 d-lg-none d-block"></span>
             <Link to="/"><a className="navbar-brand d-none d-lg-inline-block">PING</a></Link>
-            
+
             <div className="w-100 text-right">
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
                     <span className="navbar-toggler-icon"></span>

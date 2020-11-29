@@ -29,18 +29,19 @@ p{
 .navbar .navbar-brand {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: bold;
+    color:black;
     font-size: 30px;
     padding-left: 50px;
 }
 
-.navbar .navbar-nav .nav-item > a{
+.navbar .navbar-nav .nav-item > Link{
     font-family: 'Montserrat', sans-serif;
     color: #4C2A94;
     padding-right: 50px;
     transition: 0.5s;
 }
 
-.navbar .navbar-nav .nav-item > a:hover{
+.navbar .navbar-nav .nav-item > Link:hover{
     transform: scale(1.1);
 }
 
