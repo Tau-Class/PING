@@ -34,14 +34,14 @@ p{
     padding-left: 50px;
 }
 
-.navbar .navbar-nav .nav-item > Link{
+.navbar .navbar-nav .nav-item > a{
     font-family: 'Montserrat', sans-serif;
     color: #4C2A94;
     padding-right: 50px;
     transition: 0.5s;
 }
 
-.navbar .navbar-nav .nav-item > Link:hover{
+.navbar .navbar-nav .nav-item > a:hover{
     transform: scale(1.1);
 }
 
@@ -94,9 +94,18 @@ p{
     padding: 30px 120px 0px 120px;
 }
 
+.mission-text a{
+    transition: 0.5s;
+}
+
+.mission-text a:visited, a:link, a:active {
+    color: #4C2A94;
+    text-decoration: none;
+}
+
 .fact-container{
     padding: 40px;
-    height: 50vh;
+    height: 30vh;
     color: white;
     text-align: left;
 }

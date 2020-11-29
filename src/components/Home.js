@@ -13,7 +13,7 @@ const Home = () => (
             <h2>Our Mission</h2>
             <div className="mission-text">
                 <p>
-                    Sexual assault affects up to one out of six women in their lifetime. According to <a href="www.rainn.org/statistics/victims-sexual-violence">RAINN</a>, the Rape, Abuse and Incest National Network,
+                    Sexual assault affects up to one out of six women in their lifetime. According to <a href="https://www.rainn.org/statistics/victims-sexual-violence">RAINN</a>, the Rape, Abuse and Incest National Network,
                     there are about just under half of a million victims of rape or sexual assault in the United States each year. Cases of sexual assault are underreported as
                     63% of sexual assault cases do not get reported to police or the authorities. Consequently, women feel unsafe when attending public events or large social gatherings.
                 </p>
