@@ -198,7 +198,7 @@ const About = () => (
             </div>
         </div>
 
-        <footer>
+        {/* <footer>
             <div className="row no-gutters justify-content-center align-items-center">
                 <div className="col-lg-3">
                     <div className="brand">
@@ -218,7 +218,7 @@ const About = () => (
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer> */}
 
     </div>
 );

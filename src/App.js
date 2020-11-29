@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Features from './components/Features';
 import About from './components/About';
 import NavBar from './components/NavBar.jsx'
+import Footer from './components/Footer.jsx'
 
 class App extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class App extends React.Component {
       <div className='App'>
         <NavBar />
         <Main />
+        <Footer />
       </div>
     );
   }
