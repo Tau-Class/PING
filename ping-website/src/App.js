@@ -29,8 +29,7 @@ export default App;
 const Navigation = () => (
   <nav className="navbar fixed-top navbar-expand-lg navbar-light">
         <div className="d-flex flex-grow-1">
-            <span className="w-100 d-lg-none d-block"> 
-            </span>
+            <span className="w-100 d-lg-none d-block"> </span>
             <a className="navbar-brand d-none d-lg-inline-block" href="#">
                 PING
             </a>
