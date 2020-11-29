@@ -7,9 +7,8 @@ const Home = () => (
         <div className="d-flex flex-grow-1">
             <span className="w-100 d-lg-none d-block"> 
             </span>
-            <a className="navbar-brand d-none d-lg-inline-block" href="#">
-                PING
-            </a>
+            <Link to="/"><a className="navbar-brand d-none d-lg-inline-block">PING</a></Link>
+            
             <div className="w-100 text-right">
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
                     <span className="navbar-toggler-icon"></span>
@@ -22,13 +21,13 @@ const Home = () => (
                     <Link to="/"> <a className="nav-link m-2 menu-item nav-active">Home</a></Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/features"> <a className="nav-link m-2 menu-item">Features</a></Link>
+                    <Link to="/Features"> <a className="nav-link m-2 menu-item">Features</a></Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/about"> <a className="nav-link m-2 menu-item">About</a></Link>
+                    <Link to="/About"> <a className="nav-link m-2 menu-item">About</a></Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/about#contactus"> <a className="nav-link m-2 menu-item">Contact Us</a></Link>
+                    <Link to="/About#ContactUs"> <a className="nav-link m-2 menu-item">Contact Us</a></Link>
                 </li>
             </ul>
         </div>

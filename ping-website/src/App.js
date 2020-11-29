@@ -44,13 +44,13 @@ const Navigation = () => (
                     <NavLink to="/"> <a className="nav-link m-2 menu-item nav-active">Home</a></NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/features"> <a className="nav-link m-2 menu-item">Features</a></NavLink>
+                    <NavLink to="/Features"> <a className="nav-link m-2 menu-item">Features</a></NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/about"> <a className="nav-link m-2 menu-item">About</a></NavLink>
+                    <NavLink to="/About"> <a className="nav-link m-2 menu-item">About</a></NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/about#contactus"> <a className="nav-link m-2 menu-item">Contact Us</a></NavLink>
+                    <NavLink to="/About#ContactUs"> <a className="nav-link m-2 menu-item">Contact Us</a></NavLink>
                 </li>
             </ul>
         </div>
@@ -60,8 +60,8 @@ const Navigation = () => (
 const Main = () => (
   <Switch>
     <Route exact path="/" component={Home} />
-    <Route exact path="/features" component={Features} />
-    <Route exact path="/about" component={About} />
-    <Route exact path="/about#contactus" component={About} />
+    <Route exact path="/Features" component={Features} />
+    <Route exact path="/About" component={About} />
+    <Route exact path="/About#ContactUs" component={About} />
   </Switch>
 );
