@@ -1,0 +1,116 @@
+.mini-hero-container{
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    /* Image Source: https://unsplash.com/photos/hTv8aaPziOQ */
+    background: url("overview4.jpg") no-repeat center fixed;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.mini-hero-text{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50%;
+}
+
+.mini-hero-text h1{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.what-is-section{
+    padding: 70px;
+    text-align: left;
+}
+
+.background-info-container p, .what-is-section p{
+    margin-top: 40px;
+}
+
+.behind-name-section{
+    padding: 70px;
+    background: rgba(72, 54, 112, 0.6);
+    color: white;
+    text-align: left;
+}
+
+.project-overview-container{
+    text-align: center;
+    padding: 70px;
+}
+
+.project-overview-cell {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.overview1 img{
+    width: 300px;
+    height: 400px;
+}
+
+.overview2 img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.overview3 img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+
+}
+.project-overview-container h2{
+    margin-bottom: 50px;
+}
+
+.faq-container{
+    text-align: center;
+}
+
+.question-container{
+    text-align: left;
+}
+
+.accordion{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.card{
+    margin: 40px 130px;
+}
+
+.card-header p, .card-body p{
+    margin: 0;
+    padding: 0;
+}
+
+.accordion .btn {
+    width: 100%;
+    text-align: left;
+    color: black;
+}
+
+.accordion .card-header {
+    background: rgba(72, 54, 112, 0.3);
+}
+
+.accordion .btn-link{
+    transition: 0.3s;
+}
+
+.accordion .btn-link:hover{
+    color:white;
+}
+  
+
+.accordion .btn-link:hover,
+.accordion .btn-link:focus {
+  text-decoration: none;
+}

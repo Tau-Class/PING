@@ -1,0 +1,80 @@
+.about-us-component{
+    margin: 150px 70px 100px 70px;
+}
+
+.about-us-subheader{
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.about-us-subheader h2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 48px;
+}
+
+.about-us-subheader h4{
+    font-weight: bold;
+}
+
+.about-us-subheader p{
+    margin: 30px 0px;
+}
+
+.our-team-component{
+    background-color:rgba(72, 54, 112, 0.25);
+    padding: 100px 70px;
+}
+
+.our-team-heading{
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.our-team-heading h2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 48px;
+}
+
+.member-card {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.member-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-text{
+    margin: 20px;
+}
+
+.member-text p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.member-text p span{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contact-us-component{
+    margin: 100px 70px;
+    text-align: left;
+}
+
+.contact-us-component h2{
+    margin-top: 60px;
+    margin-bottom:40px;
+    font-family: 'Barlow Semi Condensed', sans-serif !important;
+    font-size: 48px;
+}
+
+.contact-text p span {
+    font-weight: bold;
+}
