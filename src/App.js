@@ -21,10 +21,10 @@ class App extends React.Component {
 
 const Main = () => (
   <Switch>
-    <Route exact path="" component={Home} />
-    <Route exact path="Features" component={Features} />
-    <Route exact path="About" component={About} />
-    <Route exact path="About#ContactUs" component={About} />
+    <Route exact path="/" component={Home} />
+    <Route exact path="/Features" component={Features} />
+    <Route exact path="/About" component={About} />
+    <Route exact path="/About#ContactUs" component={About} />
   </Switch>
 );
 

@@ -26,16 +26,16 @@ class NavBar extends Component {
           >
             <ul className="navbar-nav ml-auto flex-nowrap">
               <li className="nav-item">
-                  <a className="nav-link m-2 menu-item nav-active" href="">Home</a>
+                  <a className="nav-link m-2 menu-item nav-active" href="/PING/#/">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link m-2 menu-item" href="Features">Features</a>
+                <a className="nav-link m-2 menu-item" href="/PING/#/Features">Features</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link m-2 menu-item" href="About">About</a>
+                <a className="nav-link m-2 menu-item" href="/PING/#/About">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link m-2 menu-item" href="About#Contact-Us">Contact Us</a>
+                <a className="nav-link m-2 menu-item" href="/PING/#/About#Contact-Us">Contact Us</a>
               </li>
             </ul>
           </div>
