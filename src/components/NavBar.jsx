@@ -7,7 +7,7 @@ class NavBar extends Component {
         <nav className="navbar fixed-top navbar-expand-lg navbar-light">
           <div className="d-flex flex-grow-1">
             <span className="w-100 d-lg-none d-block"></span>
-            <a className="navbar-brand d-none d-lg-inline-block" href="/">PING</a>
+            <a className="navbar-brand d-none d-lg-inline-block" href="/PING/#/">PING</a>
 
             <div className="w-100 text-right">
               <button

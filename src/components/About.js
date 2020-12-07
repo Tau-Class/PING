@@ -29,8 +29,10 @@ const About = () => (
                     Recent Updates
             </h4>
                 <p>
-                    To be published soon.
-            </p>
+                November 2020 - Initial design, designated features
+                </p><p>
+                December 2020 - Finalized design, improved internal hardware, selected materials
+                </p>
             </div>
 
         </div>
@@ -197,29 +199,6 @@ const About = () => (
                 <p><span>Or message us on social media!</span></p>
             </div>
         </div>
-
-        {/* <footer>
-            <div className="row no-gutters justify-content-center align-items-center">
-                <div className="col-lg-3">
-                    <div className="brand">
-                        <h3>PING</h3>
-                    </div>
-                </div>
-                <div className="col-lg-4">
-                    <div className="icon-bar">
-                        <a href="#" className="fa fa-facebook"></a>
-                        <a href="#" className="fa fa-linkedin"></a>
-                        <a href="#" className="fa fa-instagram"></a>
-                    </div>
-                </div>
-                <div className="col-lg-3">
-                    <div className="copyright">
-                        <p>©Tau Class 2020.</p>
-                    </div>
-                </div>
-            </div>
-        </footer> */}
-
     </div>
 );
 
